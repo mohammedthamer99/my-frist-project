@@ -1,0 +1,1365 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+}
+body {
+  width: 100%;
+  height: 3000px;
+  display: flex;
+  background: #ffffff;
+ 
+}
+/*------ start one ------*/
+
+.wrapper {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 100%;
+  padding: 10px;
+  position: absolute;
+  background: #ffffff;
+}
+.wrapper .icon {
+  position: absolute;
+  height: 100%;
+  width: 120px;
+  display: flex;
+  
+}
+.wrapper .imges {
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+
+  
+}
+.wrapper .imges img{
+    position: absolute;
+    width: 50px;
+    height: 50px; 
+}
+.wrapper .imges h2{
+  margin-left: 60px;
+  padding-top: 8px;
+}
+.icon:first-child {
+
+  display:none;
+  background: linear-gradient(90deg, #fff 70%, transparent);
+}
+.icon:last-child {
+  
+  
+  background: linear-gradient(-90deg, #fff 70%, transparent);
+}
+
+.icon i {
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 50%;
+}
+.icon i:hover {
+  background: #efedfb;
+}
+.icon:first-child i {
+  margin-left: 15px;
+} 
+.icon:last-child i {
+  margin-right: 15px;
+} 
+.wrapper .tabs-box {
+  display: flex;
+  padding-left:450px ;
+  gap: 90px;
+  margin-top: -105px;
+  list-style: none;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.tabs-box.dragging {
+  scroll-behavior: auto;
+  cursor: grab;
+}
+.tabs-box .tab {
+  cursor: pointer;
+  font-size: 1.18rem;
+  white-space: nowrap;
+  padding: 13px 20px;
+  border-bottom: 3px solid #d8d5f2;
+}
+.tabs-box.dragging .tab {
+  user-select: none;
+  pointer-events: none;
+}
+.tabs-box .tab.active{
+  color: #fff;
+  background: #d807ce;
+  border-color: transparent;
+}
+/*------ end one ------*/
+
+/*------ start tow ------*/
+
+section div.main{
+    width: 75rem;
+    height: 31.25rem;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 130px;
+    border-radius: 10px;
+    border-bottom-right-radius: 200px;
+    background-color: #d807ce;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+  
+
+
+section div.main h1{
+   position: absolute;
+   width: 100px;
+   color: rgb(0, 0, 0);
+   font-size: 130px;
+   padding-top: 9%;
+   padding-left: 110px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+section div.main span{
+    width: 380px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 24%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+  width: 140px;
+  height: 40px;
+  margin-top:430px;
+  margin-left: 130px;
+  border: 1px solid #fff;
+  background: none;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  transition: 0.8s;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px;
+}.btn1{
+  color: #fff;
+
+}.btn1:hover{
+  color: #fff;
+  background-color: #d807ce;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+.btn1:hover::before{
+  height: 180%;
+}
+
+section.tow div.imgez img{
+  width: 350px;
+  height: 500px;
+  margin-top: 10px;
+  margin-left: 260px;
+  
+}
+/*------ end tow ------*/
+
+/*------ start three ------*/
+
+section.three{
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 20px;
+  width: 100%;
+  height: 800px;
+  padding: 20px;
+  padding-top: 80px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 200px 200px 200px;
+}
+section.three p{
+  position: absolute;
+  margin-left: 20px;
+  font-size: 30px;
+  color: white; 
+}
+
+
+
+
+section.three div.card{
+  position: relative;
+  background:url(/imges/god\ of\ war.jpg) no-repeat ;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+section.three div.card div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  height: 65%;
+  transition: 0.4s;
+  height:80%;
+}
+section.three div.card div.container:hover{
+  bottom: 0;
+}
+section.three div.card div.container button{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 60%;
+  position: relative;
+}
+section.three div.card div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+ margin-left: -5px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+section.three div.card div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+section.three div.card-one{
+  position: relative;
+  background :url(/imges/call\ of\ duty.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section.three div.card-one div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  transition: 0.4s;
+  height: 80%;
+  
+}
+section.three div.card-one div.container:hover{
+  bottom: 0;
+}
+section.three div.card-one div.container button{
+  position: relative;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 60%;
+  
+}
+section.three div.card-one div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-one div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+  margin-left: -5px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+section.three div.card-one div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+
+
+section.three div.card-tow{
+  position: relative;
+  background:url(/imges/FIFA2023.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section.three div.card-tow div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  transition: 0.4s;
+  height: 80%;
+  
+}
+section.three div.card-tow div.container:hover{
+  bottom: 0;
+}
+section.three div.card-tow div.container button{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 60%;
+  position: relative;
+}
+section.three div.card-tow div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-tow div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+  margin-left: -5px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+section.three div.card-tow div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+
+
+section.three div.card-three{
+  position: relative;
+  background:url(/imges/fortnite.jpg) ;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section.three div.card-three div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  transition: 0.4s;
+  height: 80%;
+  
+}
+section.three div.card-three div.container:hover{
+  bottom: 0;
+}
+section.three div.card-three div.container button{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 60%;
+  position: relative;
+}
+section.three div.card-three div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-three div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+  margin-left: -5px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+section.three div.card-three div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+
+section.three div.card-four{
+  position: relative;
+  background:url(/imges/free\ fire.jpg) no-repeat ;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section.three div.card-four div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  transition: 0.4s;
+  height: 80%;
+  
+}
+section.three div.card-four div.container:hover{
+  bottom: 0;
+}
+section.three div.card-four div.container button{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 60%;
+  position: relative;
+}
+section.three div.card-four div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-four div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+  margin-left: -5px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+section.three div.card-four div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+section.three div.card-fiev{
+  position: relative;
+  overflow: hidden;
+  background:url(/imges/battlefield.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+section.three div.card-fiev div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  transition: 0.4s;
+  height: 80%;
+  
+}
+section.three div.card-fiev div.container:hover{
+  bottom: 0;
+}
+section.three div.card-fiev div.container button{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 60%;
+  position: relative;
+}
+section.three div.card-fiev div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-fiev div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+  margin-left: -5px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+section.three div.card-fiev div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+section.three div.card-six{
+  position: relative;
+  overflow:hidden;
+  background:url(/imges/spider-man.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+section.three div.card-six div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  transition: 0.4s;
+  height: 80%;
+  
+}
+section.three div.card-six div.container:hover{
+  bottom: 0;
+}
+section.three div.card-six div.container button{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 60%;
+  position: relative;
+}
+section.three div.card-six div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-six div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+  margin-left: -5px;
+  width: 80%;
+  margin-left: 10%;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-six div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+section.three div.card-seven{
+  position: relative;
+  overflow: hidden;
+  background:url(/imges/sekiro.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+section.three div.card-seven div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  transition: 0.4s;
+  height: 80%;
+  
+}
+section.three div.card-seven div.container:hover{
+  bottom: 0;
+}
+section.three div.card-seven div.container button{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 60%;
+  position: relative;
+}
+section.three div.card-seven div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-seven div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+  margin-left: -5px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+section.three div.card-seven div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+section.three div.card-night{
+  position: relative;
+  overflow: hidden;
+  background:url(/imges/red\ dead\ 2.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+section.three div.card-night div.container{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.644);
+  opacity: 1.5;
+  position: absolute;
+  bottom: -115px;
+  transition: 0.4s;
+  height: 80%;
+  
+}
+section.three div.card-night div.container:hover{
+  bottom: 0;
+}
+section.three div.card-night div.container button{
+  width: 100px;
+  height: 30px;
+  border: 1px solid #3498db;
+  background-color:#ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 60%;
+  position: relative;
+}
+section.three div.card-night div.container h1{
+ margin-left: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+section.three div.card-night div.container p{
+  position: relative;
+  font-size: 13px ;
+  margin-top: px;
+  margin-left: -5px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 10%;
+}
+section.three div.card-night div.container span{
+ margin-top: 70px;
+ margin-left: -160px;
+padding-left: 10px;
+padding-right: 10px;
+ background-color: #ec0707;
+ font-size: 20px;
+ border-radius: 10px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+/*------ end three ------*/
+
+/*------ start four ------*/
+
+section.exx{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  margin-top: 1500px;
+  background-color: rgb(255, 255, 255);
+}
+section.exx div.one{
+  width: 300px;
+  height: 100%;
+}
+section.exx div.one h2{
+ margin-left: 100px;
+ margin-top: -65px;
+ font-size: 20px;
+}
+section.exx div.one span{
+  margin-left: 80px;
+  
+}
+section.exx div.one img{
+  width: 40px;
+  height: 40px;
+  margin-top: 75px;
+  margin-left: 30px;
+}
+
+section.exx div.tow{
+  width: 350px;
+  height: 100%;
+}
+section.exx div.tow img{
+  width: 40px;
+  height: 40px;
+  margin-top: 75px;
+  margin-left: 30px;
+}
+section.exx div.tow h2{
+  margin-left: 100px;
+ margin-top: -65px;
+ font-size: 2;
+ }
+section.exx div.tow span{
+  margin-left: 100px;
+}
+
+section.exx div.three{
+  width: 350px;
+  height: 100%;
+}
+section.exx div.three img{
+  width: 50px;
+  height: 50px;
+  margin-top: 70px;
+  
+}
+section.exx div.three h2{
+  margin-left: 100px;
+  margin-top: -65px;
+  font-size: 20px;
+ }
+section.exx div.three span{
+  margin-left: 100px;
+  font-size: 15px;
+}
+
+section.exx div.four{
+  width: 200px;
+  height: 100%;
+  margin-left: 20px;
+}
+section.exx img{
+  width: 50px;
+  height: 50px;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+section.exx div.four h2{
+  
+  margin-top: 65px;
+  font-size: 20px;
+ }
+section.exx div.four span{
+ text-align: center;
+  
+}
+/*------ end four ------*/
+
+
+
+section.cxx{
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  margin-top: 1750px;
+ 
+  
+}
+section.cxx div.one{  
+  height: 600px;
+  display: flex;
+}
+section.cxx div.one p{
+  position: absolute;
+  width: 100%;
+  font-size: 30px;
+  margin-left: 20px;
+  color: white;
+}
+section.cxx div.one img{
+  width: 500px;
+  margin-left: 63%;  
+}
+section.cxx div.all{
+ position: absolute;
+  width: 60%;
+  height: 600px;
+  margin-top: -30px;
+  margin-left: 50px;
+  display: grid;
+  gap: 30px;
+  padding-top: 100px;
+  grid-template-columns: 360px 360px ;
+  grid-template-rows: 200px 200px 200px;
+}
+section.cxx div.all div.a{
+  background:url(/imges/FIFA2023.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+section.cxx div.all div.a:hover{
+  width: 380px;
+  height: 220px;
+  z-index: 1;
+}
+section.cxx div.all div.b{
+background:url(/imges/battlefield.jpg) no-repeat;
+background-size: cover;
+border-radius: 10px;
+}
+section.cxx div.all div.b:hover{
+  width: 380px;
+  height: 220px;
+  z-index: 1;
+}
+section.cxx div.all div.c{
+  background:url(/imges/sekiro.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+section.cxx div.all div.c:hover{
+  width: 380px;
+  height: 220px;
+  z-index: 1;
+}
+section.cxx div.all div.d{
+  background:url(/imges/free\ fire.jpg) no-repeat ;
+  background-size: cover;
+  border-radius: 10px;
+}
+section.cxx div.all div.d:hover{
+  width: 380px;
+  height: 220px;
+  z-index: 1;
+}
+
+section.xci{
+  position: absolute;
+  height: 1500px;
+  margin-top: 1900px;
+}
+section.xci div.zx{
+  background-color: white;
+  width: 110%;
+  height: 500px;
+  margin-top: 500px;
+  overflow: hidden;
+}
+section.xci div.zx img{
+  width: 400px;
+  margin: 20px;
+  margin-left: 50px;
+  
+}
+section.xci div.zx span{
+  display: flex;
+  width: 700px;
+  height: 100px;
+  font-size: 25px;
+  margin-top: -490px;
+  margin-left: 550px; 
+}
+section.xci div.zx button{
+  width: 340px;
+  height: 60px;
+  margin-top: 190px;
+  margin-left: 700px; 
+  border: 1px solid #3498db;
+  background: none;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  transition: 0.8s;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px;
+}
+section.xci div.zx button:hover{
+  color: #fff;
+  background-color: #d807ce;
+}
+
+section.zz{
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 20px;
+  width: 100%;
+  height: 900px;
+  margin-top: 2990px;
+  padding: 20px;
+  padding-top: 80px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 200px 200px 200px;
+}
+section.zz p{
+  position: absolute;
+  margin-left: 20px;
+  font-size: 30px;
+  color: white; 
+}
+section.zz div.one{
+  background:url(/imgf/stefan-morrell-warzone01.jpg) no-repeat  ;
+  filter: grayscale(100%);
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.one{
+  color: white;
+  margin-top: 150px;
+  margin-left: 70px;
+  font-size: 40px;
+  position: absolute;
+}
+
+section.zz div.tow{
+  background :url(/imgf/287e4e1219fb6edb02cac46fb999b960.jpg) no-repeat;
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.tow{
+  color: white;
+  margin-top: 150px;
+  margin-left: 500px;
+  font-size: 30px;
+  position: absolute;
+}
+
+section.zz div.three{
+  background:url(/imgf/5cf2b6e101fff63b472b9f18080c8d2d.jpg) no-repeat;
+  filter:grayscale(100%);
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.three{
+  color: white;
+  margin-top: 150px;
+  margin-left: 900px;
+  font-size: 40px;
+  position: absolute;
+}
+
+section.zz div.four{
+  background:url(/imgf/29c9be4b0ff00eb3252a5c0fd607f3d2.jpg)  no-repeat;
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.four{
+  color: white;
+  margin-top: 400px;
+  margin-left: 70px;
+  font-size: 40px;
+  position: absolute;
+}
+
+section.zz div.fiev{
+  background:url(/imgf/40f09852b799a757f2412b6212788730.jpg) no-repeat ;
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.fiev{
+  color: white;
+  margin-top: 400px;
+  margin-left: 500px;
+  font-size: 30px;
+  position: absolute;
+}
+
+section.zz div.seix{
+  background:url(/imgf/saby-menyhei-eot-fighta-concept-final-menyhei-net-cave.jpg) no-repeat;
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.seix{
+  color: white;
+  margin-top: 400px;
+  margin-left: 910px;
+  font-size: 40px;
+  position: absolute;
+}
+
+section.zz div.seven{
+  background:url(/imgf/f9746167f782ae2d75a26d2400d9acc0.jpg) no-repeat;
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.seven{
+  color: white;
+  margin-top: 620px;
+  margin-left: 50px;
+  font-size: 30px;
+  position: absolute;
+}
+
+section.zz div.night{
+  background:url(/imgf/ajin-lee-.jpg) no-repeat;
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.night{
+  color: white;
+  margin-top: 610px;
+  margin-left: 490px;
+  font-size: 40px;
+  position: absolute;
+}
+
+section.zz div.tein{
+  background:url(/imgf/VR-Anzug-rcm850x478u.jfif) no-repeat;
+  filter: blur(2px);
+  background-size: cover;
+  border-radius: 10px;
+}
+section.zz h2.tein{
+  color: white;
+  margin-top: 620px;
+  margin-left: 920px;
+  font-size: 40px;
+  position: absolute;
+}
+
+
+
+
+section.sign{
+  position: absolute;
+  height: 1500px;
+  margin-top: 3000px;
+}
+section.sign div.after{
+  position: absolute;
+  background-color: white;
+  margin-top: 850px;
+  width: 1350px;
+  height:300px;
+}
+section.sign div.after p{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+section.sign div.after button{
+  position: absolute;
+  width: 340px;
+  height: 60px;
+  margin-top: 40px;
+  margin-left: 500px; 
+  border: 1px solid #3498db;
+  background: none;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  transition: 0.8s;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px;
+}
+section.sign div.after button:hover{
+  color: #fff;
+  background-color: #d807ce;
+}
+section.sign div.after span{
+  position: absolute;
+font-size: 30px;
+margin-top: 150px;
+margin-left: 400px;
+}
+
+section.end{
+  position: absolute;
+  height: 100px;
+  margin-top: 4150px;
+}
+section.end div.ennd{
+  width: 1350px;
+  height: 400px;
+  background-color: darkslategray;
+}
+section.end div.ennd img{
+  width: 70px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+section.end div.ennd span{
+  position: absolute;
+  font-size: 30px;
+  margin-top: 43px;
+  margin-left: 10px;
+  color: white;
+}
+section.end div.ennd span.one{
+  position: absolute;
+  font-size: 25px;
+  margin-top: 43px;
+  margin-left: 350px;
+  color: white;
+}
+section.end div.ennd span.one:hover{
+  color: #3498db;
+  cursor: pointer;
+}
+section.end div.ennd span.tow{
+  position: absolute;
+  font-size: 25px;
+  margin-top: 103px;
+  margin-left: 350px;
+  color: white;
+}
+section.end div.ennd span.tow:hover{
+  color: #3498db;
+  cursor: pointer;
+}
+section.end div.ennd span.three{
+  position: absolute;
+  font-size: 25px;
+  margin-top: 153px;
+  margin-left: 350px;
+  color: white;
+}
+section.end div.ennd span.three:hover{
+  color: #3498db;
+  cursor: pointer;
+}
+section.end div.ennd span.four{
+  position: absolute;
+  font-size: 25px;
+  margin-top: 203px;
+  margin-left: 350px;
+  color: white;
+}
+section.end div.ennd span.four:hover{
+  color: #3498db;
+  cursor: pointer;
+}
+section.end div.ennd span.fiev{
+  position: absolute;
+  font-size: 25px;
+  margin-top: 253px;
+  margin-left: 350px;
+  color: white;
+}
+section.end div.ennd span.fiev:hover{
+  color: #3498db;
+  cursor: pointer;
+}
+section.end div.ennd div.mac{
+  width: 500px;
+  height: 100px;
+  margin-left: 59%;
+  margin-top: -90px;
+}
+section.end div.ennd div.mac div.tiwt{
+  position: absolute;
+  background-color: hsl(300, 2%, 10%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+section.end div.ennd div.mac div.tiwt img{
+  width: 50px;
+  position: relative;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+
+section.end div.ennd div.mac div.yuo{
+  position: absolute;
+  background-color: hsl(300, 2%, 10%);
+  width: 70px;
+  height: 70px;
+  margin-left: 100px;
+  border-radius: 50px;
+}
+section.end div.ennd div.mac div.yuo img{
+  width: 45px;
+  position: relative;
+  margin-left: 14px;
+  margin-top: 13px;
+}
+section.end div.ennd div.mac div.fac{
+  position: absolute;
+  background-color: hsl(300, 2%, 10%);
+  width: 70px;
+  height: 70px;
+  margin-left: 200px;
+  border-radius: 50px;
+}
+section.end div.ennd div.mac div.fac img{
+  width: 55px;
+  position: relative;
+  margin-left: 7px;
+  margin-top: 9px;
+  
+}
+section.end div.ennd div.mac div.insg{
+  position: absolute;
+  background-color: hsl(300, 2%, 10%);
+  width: 70px;
+  height: 70px;
+  margin-left: 300px;
+  border-radius: 50px;
+}
+section.end div.ennd div.mac div.insg img{
+  width: 40px;
+  position: relative;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+section.end div.ennd div.xb div.appl{
+  width: 230px;
+  height: 90px;
+  margin-left: 700px;
+  margin-top: 100px;
+  border: #d8d5f24f solid 1px;
+  overflow: hidden;
+  
+}
+section.end div.ennd div.xb div.appl img{
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+section.end div.ennd div.xb div.appl span{
+  font-size: 20px;
+  margin-top: 29px;
+}
+section.end div.ennd div.xb div.appl span.one{
+  position:absolute;
+  font-size: 13px;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+section.end div.ennd div.xb div.andar{
+  width: 230px;
+  height: 90px;
+  margin-left: 950px;
+  margin-top: -90px;
+  border: #d8d5f25b solid 1px;
+  overflow: hidden;
+ 
+}
+section.end div.ennd div.xb div.andar img{
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+section.end div.ennd div.xb div.andar span{
+  font-size: 20px;
+  margin-top: 29px;
+}
+section.end div.ennd div.xb div.andar span.one{
+  position:absolute;
+  font-size: 13px;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+section.end div.ennd div.finsh{
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  margin-top: 30px;
+  margin-left: 60px;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

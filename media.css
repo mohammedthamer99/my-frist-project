@@ -1,0 +1,739 @@
+
+@media only screen and (max-width:400px){ 
+
+
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  max-width:375px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif !important;
+}
+/*------ start one ------*/
+.wrapper{
+  background-color: #0f034693;
+  max-width: 100%;
+  height: 10%;
+}
+/*------ end one ------*/
+
+/*------ start tow ------*/
+
+section div.main{
+  max-width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 10px;
+  height: 200px;
+  border-bottom-right-radius:0px;
+}
+
+section div.main h1{
+  position: relative;
+  font-size: 80px;
+  right: 20%;
+  bottom: 40px;
+  color: #ffffffd7;
+  display: none;
+}
+
+
+
+section div.main span{
+    font-size: 20px;
+    position: relative;
+    bottom: 160px;
+    right: 110px;
+    width: 60%;
+    display: none;
+
+}
+.btn{
+position: relative;
+bottom: 550px;
+right: 100px;
+width: 130px;
+font-size: 15px;
+display: none;
+}
+.btn1{
+  color: #fff;   
+  display: none;
+
+
+}.btn1:hover{
+  color: #fff;
+  background-color: #2c052a;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #3498db;
+  z-index: -1;
+  transition: 0.8s; 
+}
+.btn1::before{
+    display: none;
+
+}
+.btn1:hover::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+
+}
+section.tow div.imgez img{
+  display: none;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  bottom: 650px;
+  right: 120px;
+
+  
+}
+/*------ end tow ------*/
+
+/*------ start three ------*/
+
+section.three{
+    display: none;
+
+}
+section.three p{
+    display: none;
+
+}
+
+
+
+
+section.three div.card{
+    display: none;
+
+  
+}
+section.three div.card div.container{
+    display: none;
+
+}
+section.three div.card div.container:hover{
+    display: none;
+
+}
+section.three div.card div.container button{
+    display: none;
+
+}
+section.three div.card div.container h1{
+    display: none;
+
+}
+section.three div.card div.container p{
+    display: none;
+
+}
+section.three div.card div.container span{
+    display: none;
+
+}
+
+
+
+
+
+section.three div.card-one{
+    display: none;
+
+}
+section.three div.card-one div.container{
+    display: none;
+
+  
+}
+section.three div.card-one div.container:hover{
+    display: none;
+
+}
+section.three div.card-one div.container button{
+    display: none;
+
+  
+}
+section.three div.card-one div.container h1{
+    display: none;
+
+}
+section.three div.card-one div.container p{
+    display: none;
+
+}
+section.three div.card-one div.container span{
+    display: none;
+
+}
+
+
+
+section.three div.card-tow{
+    display: none;
+
+}
+section.three div.card-tow div.container{
+    display: none;
+
+  
+}
+section.three div.card-tow div.container:hover{
+    display: none;
+
+}
+section.three div.card-tow div.container button{
+    display: none;
+
+}
+section.three div.card-tow div.container h1{
+    display: none;
+
+}
+section.three div.card-tow div.container p{
+    display: none;
+
+}
+section.three div.card-tow div.container span{
+    display: none;
+
+}
+
+
+
+section.three div.card-three{
+    display: none;
+
+}
+section.three div.card-three div.container{
+    display: none;
+
+  
+}
+section.three div.card-three div.container:hover{
+    display: none;
+
+}
+section.three div.card-three div.container button{
+    display: none;
+
+}
+section.three div.card-three div.container h1{
+    display: none;
+
+}
+section.three div.card-three div.container p{
+    display: none;
+
+}
+section.three div.card-three div.container span{
+    display: none;
+
+}
+
+
+section.three div.card-four{
+    display: none;
+
+}
+section.three div.card-four div.container{
+    display: none;
+
+  
+}
+section.three div.card-four div.container:hover{
+    display: none;
+
+}
+section.three div.card-four div.container button{
+    display: none;
+
+}
+section.three div.card-four div.container h1{
+    display: none;
+
+}
+section.three div.card-four div.container p{
+    display: none;
+
+}
+section.three div.card-four div.container span{
+    display: none;
+
+}
+
+section.three div.card-fiev{
+  display: none;
+}
+section.three div.card-fiev div.container{
+  display: none;
+  
+}
+section.three div.card-fiev div.container:hover{
+  display: none;
+}
+section.three div.card-fiev div.container button{
+  display: none;
+}
+section.three div.card-fiev div.container h1{
+  display: none;
+}
+section.three div.card-fiev div.container p{
+  display: none;
+}
+section.three div.card-fiev div.container span{
+  display: none;
+}
+
+section.three div.card-six{
+  display: none;
+}
+section.three div.card-six div.container{
+  display: none;
+  
+}
+section.three div.card-six div.container:hover{
+  display: none;
+}
+section.three div.card-six div.container button{
+  display: none;
+}
+section.three div.card-six div.container h1{
+  display: none;
+}
+section.three div.card-six div.container p{
+  display: none;
+}
+section.three div.card-six div.container span{
+  display: none;
+}
+
+section.three div.card-seven{
+  display: none;
+}
+section.three div.card-seven div.container{
+  display: none;
+  
+}
+section.three div.card-seven div.container:hover{
+  display: none;
+}
+section.three div.card-seven div.container button{
+  display: none;
+}
+section.three div.card-seven div.container h1{
+  display: none;
+}
+section.three div.card-seven div.container p{
+  display: none;
+}
+section.three div.card-seven div.container span{
+  display: none;
+}
+
+section.three div.card-night{
+  display: none;
+}
+section.three div.card-night div.container{
+  display: none;
+  
+}
+section.three div.card-night div.container:hover{
+  display: none;
+}
+section.three div.card-night div.container button{
+  display: none;
+}
+section.three div.card-night div.container h1{
+  display: none;
+}
+section.three div.card-night div.container p{
+  display: none;
+}
+section.three div.card-night div.container span{
+  display: none;
+
+}
+
+/*------ end three ------*/
+
+/*------ start four ------*/
+
+section.exx{
+  display: none;
+}
+section.exx div.one{
+  display: none;
+}
+section.exx div.one h2{
+  display: none;
+}
+section.exx div.one span{
+  display: none;
+  
+}
+section.exx div.one img{
+  display: none;
+}
+
+section.exx div.tow{
+  display: none;
+}
+section.exx div.tow img{
+  display: none;
+}
+section.exx div.tow h2{
+  display: none;
+ }
+section.exx div.tow span{
+  display: none;
+}
+
+section.exx div.three{
+  display: none;
+}
+section.exx div.three img{
+  display: none;
+  
+}
+section.exx div.three h2{
+  display: none;
+ }
+section.exx div.three span{
+  display: none;
+}
+
+section.exx div.four{
+  display: none;
+}
+section.exx img{
+  display: none;
+}
+section.exx div.four h2{
+  
+  display: none;
+ }
+section.exx div.four span{
+  display: none;
+  
+}
+/*------ end four ------*/
+
+
+
+section.cxx{
+  display: none;
+ 
+  
+}
+section.cxx div.one{  
+  display: none;
+}
+section.cxx div.one p{
+  display: none;
+}
+section.cxx div.one img{
+  display: none;
+}
+section.cxx div.all{
+  display: none;
+}
+section.cxx div.all div.a{
+  display: none;
+}
+section.cxx div.all div.a:hover{
+  display: none;
+}
+section.cxx div.all div.b{
+  display: none;
+}
+section.cxx div.all div.b:hover{
+  display: none;
+}
+section.cxx div.all div.c{
+  display: none;
+}
+section.cxx div.all div.c:hover{
+  display: none;
+}
+section.cxx div.all div.d{
+  display: none;
+}
+section.cxx div.all div.d:hover{
+  display: none;
+}
+
+section.xci{
+  display: none;
+}
+section.xci div.zx{
+  display: none;
+}
+section.xci div.zx img{
+  display: none;
+  
+}
+section.xci div.zx span{
+  display: none;
+}
+section.xci div.zx button{
+  display: none;
+}
+section.xci div.zx button:hover{
+  display: none;
+}
+
+section.zz{
+  display: none;
+}
+section.zz p{
+  display: none;; 
+}
+section.zz div.one{
+  display: none;
+}
+section.zz h2.one{
+  display: none;
+}
+
+section.zz div.tow{
+  display: none;
+}
+section.zz h2.tow{
+  display: none;
+}
+
+section.zz div.three{
+  display: none;
+}
+section.zz h2.three{
+  display: none;
+}
+
+section.zz div.four{
+  display: none;
+}
+section.zz h2.four{
+  display: none;
+}
+
+section.zz div.fiev{
+  display: none;
+}
+section.zz h2.fiev{
+  display: none;
+}
+
+section.zz div.seix{
+  display: none;
+}
+section.zz h2.seix{
+  display: none;
+}
+
+section.zz div.seven{
+  display: none;
+}
+section.zz h2.seven{
+  display: none;
+}
+
+section.zz div.night{
+  display: none;
+}
+section.zz h2.night{
+  display: none;
+}
+
+section.zz div.tein{
+  display: none;
+}
+section.zz h2.tein{
+  display: none;
+}
+
+
+
+
+section.sign{
+  display: none;
+}
+section.sign div.after{
+  display: none;
+}
+section.sign div.after p{
+  display: none;
+
+}
+
+section.sign div.after button{
+  display: none;
+
+}
+section.sign div.after button:hover{
+  display: none;
+
+}
+section.sign div.after span{
+  display: none;
+
+}
+
+section.end{
+  display: none;
+
+}
+section.end div.ennd{
+  display: none;
+
+}
+section.end div.ennd img{
+  display: none;
+
+}
+section.end div.ennd span{
+  display: none;
+}
+section.end div.ennd span.one{
+  display: none;
+
+}
+section.end div.ennd span.one:hover{
+  display: none;
+
+}
+section.end div.ennd span.tow{
+  display: none;
+}
+section.end div.ennd span.tow:hover{
+  display: none;
+
+}
+section.end div.ennd span.three{
+  display: none;
+
+}
+section.end div.ennd span.three:hover{
+  display: none;
+
+}
+section.end div.ennd span.four{
+  display: none;
+
+}
+section.end div.ennd span.four:hover{
+display: none;
+  
+}
+section.end div.ennd span.fiev{
+  display: none;
+
+}
+section.end div.ennd span.fiev:hover{
+  display: none;
+
+}
+section.end div.ennd div.mac{
+  display: none;
+
+}
+section.end div.ennd div.mac div.tiwt{
+  display: none;
+
+}
+section.end div.ennd div.mac div.tiwt img{
+  display: none;
+}
+
+
+section.end div.ennd div.mac div.yuo{
+  display: none;
+
+}
+section.end div.ennd div.mac div.yuo img{
+  display: none;
+
+}
+section.end div.ennd div.mac div.fac{
+  display: none;
+
+}
+section.end div.ennd div.mac div.fac img{
+  display: none;
+
+  
+}
+section.end div.ennd div.mac div.insg{
+  display: none;
+
+}
+section.end div.ennd div.mac div.insg img{
+  display: none;
+
+}
+
+section.end div.ennd div.xb div.appl{
+  display: none;
+
+  
+}
+section.end div.ennd div.xb div.appl img{
+  display: none;
+
+}
+section.end div.ennd div.xb div.appl span{
+  display: none;
+
+}
+section.end div.ennd div.xb div.appl span.one{
+  display: none;
+}
+
+section.end div.ennd div.xb div.andar{
+  display: none;
+
+
+}
+section.end div.ennd div.xb div.andar img{
+  display: none;
+
+}
+section.end div.ennd div.xb div.andar span{
+  display: none;
+
+}
+section.end div.ennd div.xb div.andar span.one{
+  display: none;
+
+}
+section.end div.ennd div.finsh{
+  display: none;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
